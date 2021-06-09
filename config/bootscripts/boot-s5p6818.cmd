@@ -14,7 +14,7 @@ setenv kernel_addr_r "0x4a000000"
 
 # fdtfile should come from compile-time u-boot patches
 if test -z "${fdtfile}"; then
-	setenv fdtfile "s5p6818-nanopi-m3.dtb"
+	setenv fdtfile "nanopim3.dtb"
 fi
 
 echo "Boot script loaded from SD card ${devnum}"
